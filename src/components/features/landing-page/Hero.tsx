@@ -14,7 +14,7 @@ const Hero = (props: Props) => {
       <p className="text-center text-lg text-muted-foreground mt-4">
         Stay prepared and connected in critical moments
       </p>
-      <div className="flex mt-8 gap-12 justify-center">
+      <div className="flex mt-8 gap-8 justify-center">
         <Button className="rounded-full" size="lg">
           Get Started
         </Button>

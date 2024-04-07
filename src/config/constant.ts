@@ -35,3 +35,36 @@ export const heroImageList = [
     alt: "Hero Image 4",
   },
 ];
+
+export const featureList = [
+  {
+    src: "/assets/images/feature1.png",
+    alt: "First Aid Guide",
+    name: "First Aid Guide",
+  },
+  {
+    src: "/assets/images/feature2.png",
+    alt: "Emergency Contact",
+    name: "Emergency Contact",
+  },
+  {
+    src: "/assets/images/feature3.png",
+    alt: "Disaster Preparedness",
+    name: "Disaster Preparedness",
+  },
+  {
+    src: "/assets/images/feature4.png",
+    alt: "Alert Warning",
+    name: "Alert Warning",
+  },
+  {
+    src: "/assets/images/feature5.png",
+    alt: "Community Sharing",
+    name: "Community Sharing",
+  },
+  {
+    src: "/assets/images/feature6.png",
+    alt: "Weather Forecast",
+    name: "Weather Forecast",
+  },
+];

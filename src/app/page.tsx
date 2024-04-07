@@ -1,4 +1,5 @@
-import Hero from "@/components/features/landing-page/Hero";
+import Feature from "@/components/features/landing-page/feature";
+import Hero from "@/components/features/landing-page/hero";
 import Navbar from "@/components/ui/layout/navbar";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <main>
       <Navbar />
       <Hero />
+      <Feature />
     </main>
   );
 }

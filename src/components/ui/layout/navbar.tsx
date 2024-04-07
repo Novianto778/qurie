@@ -15,11 +15,9 @@ const Navbar = (props: Props) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const pathname = usePathname();
 
-  console.log(pathname);
-
   return (
-    <nav className="bg-white border-gray-200">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <nav className="bg-white border-gray-200 container">
+      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-4">
         <Link
           href="/"
           className="flex items-center space-x-3 rtl:space-x-reverse"

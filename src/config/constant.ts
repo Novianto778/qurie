@@ -68,3 +68,38 @@ export const featureList = [
     name: "Weather Forecast",
   },
 ];
+
+export const howItWorksList = [
+  {
+    src: "/assets/images/how1.png",
+    alt: "Step 1",
+    title: "Receive Alerts",
+    description: "Get instant alerts about emergencies happening nearby.",
+  },
+  {
+    src: "/assets/images/how2.png",
+    alt: "Step 2",
+    title: "Access Contacts",
+    description: "Store and easily access emergency contacts for quick help.",
+  },
+  {
+    src: "/assets/images/how3.png",
+    alt: "Step 3",
+    title: "Stay Connected",
+    description: "Stay connected with newest updates and alerts in your area.",
+  },
+  {
+    src: "/assets/images/how4.png",
+    alt: "Step 4",
+    title: "Report Incidents",
+    description:
+      "Report incidents in real-time to help keep your community safe.",
+  },
+  {
+    src: "/assets/images/how5.png",
+    alt: "Step 5",
+    title: "Learn and Prepare",
+    description:
+      "Access guides and resources to prepare for emergencies effectively.",
+  },
+];

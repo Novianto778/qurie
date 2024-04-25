@@ -20,3 +20,7 @@ export function getShakeMapImage(earthquake: Gempa) {
   const shakeMap = year + month + day + hour + minute + second + ".mmi.jpg";
   return shakeMap;
 }
+
+export function kelvinToCelcius(kelvin: number) {
+  return (kelvin - 273.15).toFixed(1);
+}

@@ -73,7 +73,7 @@ export const featureList = [
     src: "/assets/images/feature6.png",
     alt: "Weather Forecast",
     name: "Weather Forecast",
-    href: "/weather-forecast",
+    href: "/weather",
   },
 ];
 

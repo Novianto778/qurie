@@ -6,6 +6,9 @@ const nextConfig = {
       {
         hostname: "data.bmkg.go.id",
       },
+      {
+        hostname: "openweathermap.org",
+      },
     ],
   },
   // typescript: {

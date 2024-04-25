@@ -50,6 +50,7 @@ export interface CurrentWeatherDataResponse {
   id: number;
   name: string;
   cod: number;
+  dt_txt: string;
 }
 
 export interface Location {

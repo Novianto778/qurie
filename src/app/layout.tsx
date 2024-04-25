@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Lato } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/ui/layout/navbar";
+import NotifAlert from "@/components/notif-alert";
 
 const lato = Lato({ subsets: ["latin"], weight: ["400", "700"] });
 
@@ -33,6 +34,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={lato.className}>
         <Navbar />
+        <NotifAlert />
         {children}
       </body>
     </html>

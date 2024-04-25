@@ -29,19 +29,21 @@ const EmergencyAlert = async () => {
         title="Emergency Alert Warning"
         subtitle="Stay informed and take immediate action during emergencies with our alert warning system. Receive timely notifications about potential threats in your area and follow recommended safety measures."
       />
-      <h2 className="text-4xl font-bold text-balance text-center leading-snug mt-8">
-        Latest Earthquake Alert
-      </h2>
-      <div className="flex items-center">
-        <Image
-          src={"https://data.bmkg.go.id/DataMKG/TEWS/" + data.Shakemap}
-          alt="Emergency Alert"
-          width={500}
-          height={500}
-        />
-        <EarthQuakeData data={data} />
+      <div className="container">
+        <h2 className="text-4xl font-bold text-balance text-center leading-snug mt-8">
+          Latest Earthquake Alert
+        </h2>
+        <div className="flex items-center flex-wrap">
+          <Image
+            src={"https://data.bmkg.go.id/DataMKG/TEWS/" + data.Shakemap}
+            alt="Emergency Alert"
+            width={500}
+            height={500}
+          />
+          <EarthQuakeData data={data} />
+        </div>
+        <ListEarthQuake />
       </div>
-      <ListEarthQuake />
     </div>
   );
 };

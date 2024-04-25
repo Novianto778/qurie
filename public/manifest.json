@@ -1,7 +1,7 @@
 {
-  "name": "PWA App",
-  "short_name": "App",
-  "description": "An example of a PWA using Next.js and TypeScript",
+  "name": "Qurie",
+  "short_name": "Qurie",
+  "description": "Qurie is your essential companion for swift response during emergencies. With real-time alerts, comprehensive guides, and community support features, Qurie empowers you to stay safe and informed when it matters most. Download now and take control of your safety.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#FFFFFF",

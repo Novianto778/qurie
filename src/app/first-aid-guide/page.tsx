@@ -44,7 +44,7 @@ const FirstAidGuide = (props: Props) => {
       />
       <section className="py-10">
         <div className="container">
-          <div className="grid grid-cols-12 gap-8">
+          <div className="grid grid-cols-12 gap-x-0 md:gap-x-8 gap-8">
             {data.map((item, index) => (
               <div
                 key={index}

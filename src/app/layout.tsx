@@ -21,6 +21,7 @@ export const metadata: Metadata = {
     "Safety resources",
     "Community resilience",
   ],
+  manifest: "/manifest.json",
 };
 
 export default function RootLayout({

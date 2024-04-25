@@ -1,19 +1,21 @@
 import { featureList } from "@/config/constant";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 type Props = {};
 
 const Feature = (props: Props) => {
   return (
-    <section className="py-10 bg-ternary">
+    <section className="py-10 bg-ternary" id="feature">
       <div className="container">
         <h2 className="text-4xl font-bold text-balance text-center leading-snug">
           Everything You Need <br /> in One Place
         </h2>
         <div className="grid grid-cols-12 max-w-[900px] mx-auto gap-4 mt-4">
           {featureList.map((feature, index) => (
-            <div
+            <Link
+              href={feature.href}
               key={index}
               className="col-span-12 md:col-span-6 lg:col-span-4 justify-self-center rounded-lg"
             >
@@ -29,7 +31,7 @@ const Feature = (props: Props) => {
                   {feature.name}
                 </h3>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>

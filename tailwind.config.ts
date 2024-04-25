@@ -74,8 +74,14 @@ const config: Config = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      fontSize: {
+        "responsive-heading": "clamp(1.5rem, 4vw, 2.25rem)",
+        "responsive-subheading": "clamp(1.125rem, 3vw, 1.5rem)",
+        "responsive-body": "clamp(1rem, 2.5vw, 1.125rem)",
+        "responsive-caption": "clamp(0.875rem, 2vw, 1rem)",
+      },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [require("tailwindcss-animate"), require("@tailwindcss/typography")],
 };
 export default config;

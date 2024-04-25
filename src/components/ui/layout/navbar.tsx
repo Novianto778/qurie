@@ -35,7 +35,7 @@ const Navbar = (props: Props) => {
         <div
           className={cn(
             "w-full md:block md:w-auto",
-            isMenuOpen ? "block" : "hidden"
+            isMenuOpen ? "fixed top-12 left-0" : "hidden"
           )}
         >
           <ul

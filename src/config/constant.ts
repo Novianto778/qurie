@@ -4,18 +4,20 @@ export const navMenuList = [
     label: "Home",
   },
   {
-    href: "/feature",
+    href: "/#feature",
     label: "Feature",
   },
   {
-    href: "/how",
+    href: "/#how",
     label: "How",
   },
   {
-    href: "/about",
+    href: "/#about",
     label: "About",
   },
 ];
+
+export const PLACEHOLDERIMAGE = "/assets/images/placeholder.jpg";
 
 export const heroImageList = [
   {
@@ -41,31 +43,37 @@ export const featureList = [
     src: "/assets/images/feature1.png",
     alt: "First Aid Guide",
     name: "First Aid Guide",
+    href: "/first-aid-guide",
   },
   {
     src: "/assets/images/feature2.png",
     alt: "Emergency Contact",
     name: "Emergency Contact",
+    href: "/emergency-contact",
   },
   {
     src: "/assets/images/feature3.png",
     alt: "Disaster Preparedness",
     name: "Disaster Preparedness",
+    href: "/disaster-preparedness",
   },
   {
     src: "/assets/images/feature4.png",
     alt: "Alert Warning",
     name: "Alert Warning",
+    href: "/emergency-alert",
   },
   {
     src: "/assets/images/feature5.png",
     alt: "Community Sharing",
     name: "Community Sharing",
+    href: "/community-sharing",
   },
   {
     src: "/assets/images/feature6.png",
     alt: "Weather Forecast",
     name: "Weather Forecast",
+    href: "/weather-forecast",
   },
 ];
 

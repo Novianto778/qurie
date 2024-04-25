@@ -3,7 +3,6 @@ import ListEarthQuake from "@/components/features/emergency/list-earthquake";
 import { RefreshCache } from "@/components/refresh-cache";
 import Banner from "@/components/ui/layout/banner";
 import { Gempa } from "@/types/gempa.type";
-import { revalidatePath } from "next/cache";
 import Image from "next/image";
 
 type Props = {};

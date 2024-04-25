@@ -8,10 +8,10 @@ type Props = {};
 const Hero = (props: Props) => {
   return (
     <section className="container py-10 flex-col justify-center items-center">
-      <h1 className="font-bold text-5xl text-center">
+      <h1 className="font-bold text-5xl text-center text-balance">
         Respond Rapidly, Staf Safe
       </h1>
-      <p className="text-center text-lg text-muted-foreground mt-4">
+      <p className="text-center text-lg text-muted-foreground mt-4 text-balance">
         Stay prepared and connected in critical moments
       </p>
       <div className="flex mt-8 gap-8 justify-center">
@@ -22,7 +22,7 @@ const Hero = (props: Props) => {
           Learn More
         </Button>
       </div>
-      <div className="grid grid-cols-12 gap-8 mt-8 max-w-[900px] mx-auto">
+      <div className="grid grid-cols-12 gap-x-0 md:gap-x-8 gap-8 mt-8 max-w-[900px] mx-auto">
         {heroImageList.map((image, index) => (
           <div key={index} className="col-span-12 md:col-span-6 lg:col-span-3">
             <Image

@@ -6,9 +6,16 @@ type Props = {
   image?: string;
   subtitle: string;
   bg: string;
+  textColor?: string;
 };
 
-const Banner = ({ title, image, subtitle, bg }: Props) => {
+const Banner = ({
+  title,
+  image,
+  subtitle,
+  bg,
+  textColor = "#494949",
+}: Props) => {
   return (
     <div
       style={{
@@ -29,7 +36,12 @@ const Banner = ({ title, image, subtitle, bg }: Props) => {
           <h2 className="text-4xl font-bold text-balance leading-snug text-responsive-heading">
             {title}
           </h2>
-          <p className="text-[#494949] mt-2 max-w-3xl text-balance">
+          <p
+            className="mt-2 max-w-3xl text-balance"
+            style={{
+              color: textColor,
+            }}
+          >
             {subtitle}
           </p>
         </div>
